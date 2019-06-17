@@ -1,4 +1,4 @@
-# vshop
+# vshop 微信端
 
 ## Project setup
 ```
