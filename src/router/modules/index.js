@@ -1,0 +1,5 @@
+export { default as account } from './account'
+export { default as home } from './home'
+export { default as lay } from './lay'
+export { default as setting } from './setting'
+export { default as other } from './other'
