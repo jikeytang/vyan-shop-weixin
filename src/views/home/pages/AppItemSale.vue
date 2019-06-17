@@ -4,7 +4,7 @@
       <h2>限时抢购</h2><span>拼手速抢惊喜</span>
     </div>
     <div class="app-item-content">
-      
+
     </div>
   </section>
 </template>
