@@ -1,4 +1,3 @@
-// const _meta = { requiresAuth: true }
 
 export default [
   {
@@ -21,5 +20,13 @@ export default [
     path: '/user',
     name: 'user',
     component: () => import(/* webpackChunkName: "user" */ '@/views/user')
+  },
+  {
+    path: '/user/order',
+    name: 'UserOrder',
+    component: () => import(/* webpackChunkName: "user" */ '@/views/user/pages/order'),
+    meta: {
+      hideTabBar: true
+    }
   }
 ]
